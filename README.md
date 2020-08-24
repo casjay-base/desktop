@@ -1,12 +1,14 @@
 # Files to install for desktop use
     
 Parrot:  
-`sudo apt install -y virtualbox opera-stable google-chrome-stable youtube-dl deluge deluge-webui electrum libreoffice byobu build-essential obs-studio kdenlive handbrake vlc samba open-vm-tools-desktop neovim variety conky filezilla handbrake recordmydesktop lsb-release git nextcloud-desktop
+`
+sudo apt install -y virtualbox opera-stable google-chrome-stable youtube-dl deluge deluge-webui electrum libreoffice byobu build-essential obs-studio kdenlive handbrake vlc samba open-vm-tools-desktop neovim variety conky filezilla handbrake recordmydesktop lsb-release git nextcloud-desktop
 `  
 ##  
   
 Kali:  
-`sudo apt install -y kali-linux-sdr kali-linux-wireless kali-linux-web kali-linux-forensic kali-linux-pwtools kali-linux-rfid kali-linux-top10  kali-linux-web kali-defaults bash-completion armitage  
+`
+sudo apt install -y kali-linux-sdr kali-linux-wireless kali-linux-web kali-linux-forensic kali-linux-pwtools kali-linux-rfid kali-linux-top10  kali-linux-web kali-defaults bash-completion armitage  
 `  
 ##  
   
@@ -17,7 +19,8 @@ sudo apt install -y tor torsocks firefox thunderbird samba youtube-dl transmissi
 ##  
 
 Debian  
-`sudo apt install -y tor torsocks firefox-esr thunderbird samba youtube-dl transmission libreoffice byobu build-essential vlc vim variety conky filezilla recordmydesktop lsb-release git nextcloud-desktop chromium brotli zopfli git gimp imagemagick zsh zsh-theme-powerlevel9k zplug curl shellcheck xclip cmatrix hollywood nodejs npm tmux vim fonts-powerline vim-airline powerline powerline-gitstatus vim-airline-themes rofi zenmap neofetch localepurge sl kleopatra
+`
+sudo apt install -y tor torsocks firefox-esr thunderbird samba youtube-dl transmission libreoffice byobu build-essential vlc vim variety conky filezilla recordmydesktop lsb-release git nextcloud-desktop chromium brotli zopfli git gimp imagemagick zsh zsh-theme-powerlevel9k zplug curl shellcheck xclip cmatrix hollywood nodejs npm tmux vim fonts-powerline vim-airline powerline powerline-gitstatus vim-airline-themes rofi zenmap neofetch localepurge sl kleopatra
 `
 ##
   
@@ -27,9 +30,8 @@ sudo pacman -Sy --needed --noconfirm adapta-gtk-theme adobe-source-sans-pro-font
 ` 
   
 ##### gStreamer
-```bash
+```shell
 sudo apt-get install libgstreamer1.0-0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-doc gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-qt5 gstreamer1.0-pulseaudio
 
 dnf install gstreamer1-devel gstreamer1-plugins-base-tools gstreamer1-devel-docs gstreamer1-plugins-base-devel gstreamer1-plugins-base-devel-docs gstreamer1-plugins-good gstreamer1-plugins-good-extras gstreamer1-plugins-ugly gstreamer1-plugins-ugly-devel-docs  gstreamer1-plugins-bad-free gstreamer1-plugins-bad-free-devel gstreamer1-plugins-bad-free-extras
-```
 ```
